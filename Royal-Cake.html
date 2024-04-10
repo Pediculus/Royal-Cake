@@ -15,63 +15,73 @@
         <img src="images/ROYAL CAKE savour full brown.png" style="width:150px">
     </header>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#catalog">Catalog</a>
-        <a href="#order">Order</a>
-        <a href="#q&a">Q&A</a>
-        <a href="#contact">Contact</a>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCake(event, 'home')">Home</button>
+            <button class="tablinks" onclick="openCake(event, 'catalog')">Catalog</button>
+            <button class="tablinks" onclick="openCake(event, 'order')">Order</button>
+            <button class="tablinks" onclick="openCake(event, 'q&a')">Q&A</button>
+            <button class="tablinks" onclick="openCake(event, 'contact')">Order</button>
+        </div>
     </nav>
     <div class="container">
-        <section id="home" class="section">
-            <!--There were more in here-->
-            <table style="padding-left:250px">
-                <tr>
-                    <th style="color:black; background-color: #ebebeb; padding: 10px; margin:auto;">FEATURED / NEW PRODUCT</th>
-                </tr>
-            </table><br>
-            <table style="padding-left:35px">
-                <tr>
-                    <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/white-bento.png" style="width:150px"></button></td>
-                    <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/skin-chocolate.png" style="width:150px"></button></td>
-                    <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/blue-black-things.png" style="width:150px"></button></td>
-                    <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/blue-white.png" style="width:150px"></button></td>
-                </tr>
-                <tr>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                </tr>
-            </table>
-            <p style="text-align: center;">
-                <button style="width: 15%; height:15%; padding:5px; background-color: #ebebeb; outline: none;">View All</button>
-            </p>
-
-            <!--Best Seller Part-->
-            <table style="padding-left:315px">
-                <tr>
-                    <th style="color:black; background-color: #ebebeb; padding: 10px; margin:auto;">BEST SELLER</th>
-                </tr>
-            </table><br>
-            <table style="padding-left:35px">
-                <tr>
-                    <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
-                    <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
-                    <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
-                    <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
-                </tr>
-                <tr>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                    <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
-                </tr>
-            </table>
-            <p style="text-align: center;">
-                <button style="width: 15%; height:15%; padding:5px; background-color: #ebebeb; outline: none;">View All</button>
-            </p>
-        </section>
+        <div id="home" class="tabcontent">
+            <section id="home" class="section">
+                <!--There were more in here-->
+                <table style="padding-left:250px">
+                    <tr>
+                        <th style="color:black; background-color: #ebebeb; padding: 10px; margin:auto;">FEATURED / NEW PRODUCT</th>
+                    </tr>
+                </table><br>
+                <table style="padding-left:35px">
+                    <tr>
+                        <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/white-bento.png" style="width:150px"></button></td>
+                        <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/skin-chocolate.png" style="width:150px"></button></td>
+                        <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/blue-black-things.png" style="width:150px"></button></td>
+                        <td style="color:black; padding: 10px; margin:auto;"><button style="background-color:white;border:none"><img src="images/blue-white.png" style="width:150px"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                    </tr>
+                </table>
+                <p style="text-align: center;">
+                    <button style="width: 15%; height:15%; padding:5px; background-color: #ebebeb; outline: none;">View All</button>
+                </p>
+    
+                <!--Best Seller Part-->
+                <table style="padding-left:315px">
+                    <tr>
+                        <th style="color:black; background-color: #ebebeb; padding: 10px; margin:auto;">BEST SELLER</th>
+                    </tr>
+                </table><br>
+                <table style="padding-left:35px">
+                    <tr>
+                        <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
+                        <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
+                        <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
+                        <td style="color:black; padding: 10px; margin:auto;"><img src="images/cake.jpg" style="width:150px"></td>
+                    </tr>
+                    <tr>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                        <td style="color:black; text-align:center; margin:auto;">Placeholder</td>
+                    </tr>
+                </table>
+                <p style="text-align: center;">
+                    <button style="width: 15%; height:15%; padding:5px; background-color: #ebebeb; outline: none;">View All</button>
+                </p>
+            </section>
+          </div>
         </div>
+        <div id="catalog" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+
         <footer>
             <ul>
                 <li>0896-1228-1227</li>
@@ -79,5 +89,21 @@
                 <li>Jl. Wonobaru, Warkop Super Horizon (samping Indomaret)</li>
             </ul>            
         </footer>
+
+        <script>
+            function openCake(evt, cakeName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cakeName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
     </body>
     </html>
