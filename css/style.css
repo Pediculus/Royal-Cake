@@ -56,6 +56,10 @@ button:hover{
     padding: 20px;
 }
 
+section{
+    text-align: center;
+}
+
 .section {
     background-color: #fff;
     padding: 20px;
@@ -72,7 +76,12 @@ footer {
     color: #fff;
     text-align: left;
     padding-left: 335px;
+    padding-top: 0px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+ul{
+    list-style-type: none;
 }
