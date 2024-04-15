@@ -29,6 +29,11 @@ nav a:hover {
     color: #ff9900;
 }
 
+button{
+    background-color:white;
+    border:none;
+}
+
 button.tablinks  {
     padding: 10px 20px;
     color: black;
