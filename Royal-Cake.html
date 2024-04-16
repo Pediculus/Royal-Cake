@@ -17,7 +17,7 @@
     <nav>
 
         <div class="tab">
-            <button class="tablinks" onclick="openCake(event, 'home')">Home</button>
+            <button class="tablinks" onclick="openCake(event, 'home')" id="defaultOpen">Home</button>
             <button class="tablinks" onclick="openCake(event, 'catalog')">Catalog</button>
             <button class="tablinks" onclick="openCake(event, 'q&a')">FAQ</button>
             <button class="tablinks" onclick="openCake(event, 'contact')">Order</button>
@@ -55,8 +55,10 @@
         </div>
         <div id="catalog" class="tabcontent">
             <!--Isi tab catalog-->
-
-            <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> -->
+        </div>
+    <div id="q&a" class="tabcontent">
+        <div class="container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
             <div class="wrapper">
                 <h1>Frequently Asked Questions</h1>
 
@@ -81,7 +83,7 @@
                     <p>
                     Setiap pembelian kue, kami menerima request penulisan ucapan dipapan cokelat. <br>
                     </p>
-                </div>
+                    </div>
                 </div>
 
                 <div class="faq active">
@@ -93,7 +95,7 @@
                     <p>
                     Kami memiliki layanan delivery melalui via kurir mobil. <br>
                     </p>
-                </div>
+                    </div>
                 </div>
 
                 <div class="faq">
@@ -105,11 +107,12 @@
                     <p>
                     Pemesanan kue dilakukan maksimal H-1 atau 24 jam sebelum kue diambil. <br>
                     </p>
-                </div>
+                    </div>
                 </div>
             </div>
             
         </div>
+    </div>
 
         <footer>
             <ul>
@@ -133,6 +136,7 @@
               document.getElementById(cakeName).style.display = "block";
               evt.currentTarget.className += " active";
             }
+            document.getElementById("defaultOpen").click();
             </script>
     </body>
     </html>
