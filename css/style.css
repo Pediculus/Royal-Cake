@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+.tab{
+    overflow: hidden;
+}
+
 nav {
     background-color: #fff;
     padding: 10px;
