@@ -96,3 +96,18 @@ footer {
 ul{
     list-style-type: none;
 }
+
+div.faq {
+    color: #000;
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.panel {
+    color:darkslategrey;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
