@@ -142,3 +142,80 @@ div.panel {
  .dropdown-buttons:focus + .panel, .dropdown-buttons:active + .panel {
     display: block;
   }
+
+
+/*CSS Item Details
+
+#item-details{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 75%;
+    margin:auto;
+    height: 80vh;
+    margin-top: 5%;
+}
+
+.left, .right{
+    width: 50%;
+    padding: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left img{
+    width: 100%;
+}
+
+.right{
+    padding: 50px 100px 50px 50px;
+}
+
+.right h1{
+    margin: 20px 0 10px 0;
+    font-size: 300%;
+}
+
+.right h2{
+    font-size: 150%;
+}
+
+.right h4{
+    margin: 20px 0 40px 0;
+    line-height: 25px;
+}
+
+.variation-details{
+    padding: 10px;
+}
+
+.variation-details h2{
+    text-align: center;
+}
+
+.variation-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.variation-img img{
+    margin: 50px 30px 50px 30px;
+    padding: 10px 0 10px 0;
+    float: left;
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+*/
