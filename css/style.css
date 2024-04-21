@@ -118,7 +118,7 @@ div.panel {
     width: 100%;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
   }
   
   .panel {
@@ -143,7 +143,7 @@ div.panel {
   }
 
 
-/*CSS Item Details
+/*CSS Item Details*/
 
 #item-details{
     margin: 0px;
@@ -151,7 +151,7 @@ div.panel {
     box-sizing: border-box;
 }
 
-.container{
+.container flex{
     max-width: 75%;
     margin:auto;
     height: 80vh;
@@ -217,4 +217,3 @@ div.panel {
     padding: 15px;
     text-align: center;
   }
-*/
