@@ -30,10 +30,10 @@
                 <h2 style="text-align: center; background-color: #ebebeb; padding: 10px;">Featured</h2>
                 <br>
 
-                <button><img src="images/white-bento.png" style="width:200px"><p>Bento Cake</p></button>
-                <button class="content" onclick="openCake(event,'item-details')"><img src="images/blue-black-things.png" style="width:200px"><p>D12 Butter Cream</p></button>
-                <button><img src="images/skin-chocolate.png" style="width: 200px;"><p>D15 Butter Cream</p></button>
-                <button><img src="images/blue-white.png" style="width: 200px;"><p>Mini Korean</p></button>
+                <button class="content" onclick="openCake(event,'bento')"><img src="images/white-bento.png" style="width:200px"><p>Bento Cake</p></button>
+                <button class="content" onclick="openCake(event,'d12')"><img src="images/blue-black-things.png" style="width:200px"><p>D12 Butter Cream</p></button>
+                <button class="content" onclick="openCake(event,'d15')"><img src="images/skin-chocolate.png" style="width: 200px;"><p>D15 Butter Cream</p></button>
+                <button class="content" onclick="openCake(event,'mini-korean')"><img src="images/blue-white.png" style="width: 200px;"><p>Mini Korean</p></button>
                 
                 <div id="featured-more" style="display: none;">
                     <button><img src="images/yellow-popcorn-d12.png" style="width:200px"><p>D18 Butter Cream</p></button>
@@ -50,9 +50,9 @@
             <!--Isi tab catalog-->
         </div>
 
-     <div id="item-details" class="tabcontent">
 
-        <div class="bento-page">    
+
+        <div id="bento" class="tabcontent">    
             <div class="container flex">
                 <div class="left">
                     <img src="images/bento-blue-lattice.png" alt="Bento Cake D10cm"/>
@@ -99,7 +99,7 @@
             </div>
             </div>
 
-            <div class="d10-page">    
+            <div id="mini-korean" class="tabcontent">    
                 <div class="container flex">
                     <div class="left">
                         <img src="images/plane-minikorean.png" alt="Mini Korean D10cm Birthday Cake"/>
@@ -153,7 +153,7 @@
                 </div>
                 </div>
          
-    <div class="d12-page">    
+    <div id="d12" class="tabcontent">    
     <div class="container flex">
         <div class="left">
             <img src="images/goldleaf-flower-d12.png" alt="Diameter 12cm Birthday Cake"/>
@@ -191,7 +191,7 @@
                 <button>wa</button>
             </div>
         </div>
-    </div>
+
 
     <div class="variation-details">
         <h2>Contoh Kue</h2>
@@ -221,7 +221,7 @@
     </div>
     </div>
 
-    <div class="d15-page">    
+    <div id="d15" class="tabcontent">    
         <div class="container flex">
             <div class="left">
                 <img src="images/chocolate-coin.png" alt="Diameter 15cm Birthday Cake"/>
