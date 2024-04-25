@@ -11,46 +11,60 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/ROYAL CAKE savour full brown.png" style="width:150px">
+        <header>
+        <button class="links" onclick="openCake(event, 'home')" id="defaultOpen"><img src="images/ROYAL CAKE savour full brown.png" style="width:150px"></button>
     </header>
     <nav>
 
         <div class="tab">
-            <button class="tablinks" onclick="openCake(event, 'home')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openCake(event, 'about-us')">About Us</button>
             <button class="tablinks" onclick="openCake(event, 'catalog')">Catalog</button>
             <button class="tablinks" onclick="openCake(event, 'q&a')">FAQ</button>
-            <button class="tablinks" onclick="openCake(event, 'contact')">Order</button>
+            <button class="tablinks" onclick="openCake(event, 'social')">Social</button>
         </div>
     </nav>
+
+    <!--Home Section-->
     <div class="container">
         <div id="home" class="tabcontent">
             <section id="home" class="section">
+                <h1 style="text-align: center; font-size: xx-large;">Available Products</h1>
+                <br>
+                <div class="selections">
+                    <button class="content" onclick="openCake(event,'bento')"><img src="images/white-bento.png" style="width:200px"><p>Bento Cake</p></button>
+                    <button class="content" onclick="openCake(event,'d12')"><img src="images/blue-black-things.png" style="width:200px"><p>D12 Butter Cream</p></button>
+                    <button class="content" onclick="openCake(event,'d15')"><img src="images/skin-chocolate.png" style="width: 200px;"><p>D15 Butter Cream</p></button>
+                    <button class="content" onclick="openCake(event,'mini-korean')"><img src="images/blue-white.png" style="width: 200px;"><p>Mini Korean</p></button>
+                    <button><img src="images/yellow-popcorn-d12.png" style="width:200px"><p>D18 Butter Cream</p></button>
+                    <button><img src="images/tango-oreo-d15.png" style="width:200px"><p>D20 Butter Cream</p></button>
+                </div>
+
+                <h1 style="text-align: center; font-size: xx-large;">Find Us On</h1>
+                <p><img src="images/ig.png" style="width: 10%;"></p>
+                <p>Instagram @royalcakesavour</p>
+
+            </section>
+          </div>
+        </div>
+    
+    <!--Catalog Products-->
+    <div class="container">
+        <div id="catalog" class="tabcontent">
+            <section id="catalog" class="section">
                 <!--There were more in here-->
-                <h2 style="text-align: center; background-color: #ebebeb; padding: 10px;">Featured</h2>
+                <h1 style="text-align: center; font-size:xx-large ;">Featured</h1>
                 <br>
 
                 <button class="content" onclick="openCake(event,'bento')"><img src="images/white-bento.png" style="width:200px"><p>Bento Cake</p></button>
                 <button class="content" onclick="openCake(event,'d12')"><img src="images/blue-black-things.png" style="width:200px"><p>D12 Butter Cream</p></button>
                 <button class="content" onclick="openCake(event,'d15')"><img src="images/skin-chocolate.png" style="width: 200px;"><p>D15 Butter Cream</p></button>
                 <button class="content" onclick="openCake(event,'mini-korean')"><img src="images/blue-white.png" style="width: 200px;"><p>Mini Korean</p></button>
-                
-                <div id="featured-more" style="display: none;">
-                    <button><img src="images/yellow-popcorn-d12.png" style="width:200px"><p>D18 Butter Cream</p></button>
-                    <button><img src="images/tango-oreo-d15.png" style="width:200px"><p>D20 Butter Cream</p></button>
-                </div>
+                <button><img src="images/yellow-popcorn-d12.png" style="width:200px"><p>D18 Butter Cream</p></button>
+                <button><img src="images/tango-oreo-d15.png" style="width:200px"><p>D20 Butter Cream</p></button>
 
-                <p style="text-align: center;">
-                    <button class="viewall" onclick="showMore('featured')">View All</button>
-                </p>
             </section>
           </div>
         </div>
-        <div id="catalog" class="tabcontent">
-            <!--Isi tab catalog-->
-        </div>
-
-
 
         <div id="bento" class="tabcontent">    
             <div class="container flex">
