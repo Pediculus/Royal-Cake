@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -42,10 +47,13 @@ button.tablinks  {
     padding: 10px 20px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #fff;
+    background-color:none;
     font-size: large;
     margin: 10px;
     border:none;
+}
+button.links{
+    background-color:#F2D492;
 }
 button.viewall{
     width: 15%; 
@@ -84,12 +92,12 @@ footer {
     background-color: #F2D492;
     color: #000;
     text-align: left;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 0px;
-    padding-top: 0px;
-    bottom: 0;
+    padding-top: 5px;
+    bottom: 5px;
     width: 100%;
-    height: 70px;
+    height:auto;
 }
 
 ul{
@@ -142,6 +150,12 @@ div.panel {
     display: block;
   }
 
+div.selections{
+    border: solid;
+    border-color: #F2D492;
+    padding-top:10px;
+    margin-bottom: 50px;
+}
 
 /*CSS Item Details*/
 
@@ -217,4 +231,3 @@ div.panel {
     cursor: pointer;
     transform: scale(1.2);     
 }
-
