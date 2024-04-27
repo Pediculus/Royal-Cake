@@ -157,6 +157,15 @@ div.selections{
     margin-bottom: 50px;
 }
 
+div.contact-us{
+    border: solid;
+    border-color: #F2D492;
+    padding-top: 10px;
+    padding-left: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
 /*CSS Item Details*/
 
 #item-details{
