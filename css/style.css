@@ -240,3 +240,15 @@ div.contact-us{
     cursor: pointer;
     transform: scale(1.2);     
 }
+
+#about-us p{
+    text-align: justify;
+    padding: 4px;
+    margin: 2px;
+    line-height: 20px;
+}
+
+#about-us h4{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
