@@ -175,7 +175,7 @@ div.contact-us{
 }
 
 .container flex{
-    max-width: 75%;
+    max-width: 90%;
     margin:auto;
     height: 80vh;
     margin-top: 5%;
@@ -196,7 +196,7 @@ div.contact-us{
 }
 
 .right{
-    padding: 50px 100px 50px 50px;
+    padding: 50px 0px 0px 20px;
 }
 
 .right h1{
@@ -204,13 +204,16 @@ div.contact-us{
     font-size: 300%;
 }
 
-.right h2{
-    font-size: 150%;
+.right p{
+    margin: 10px 0px 5px 0px;
+    font-size: 18px;
 }
 
-.right h4{
-    margin: 20px 0 40px 0;
+.right pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
     line-height: 25px;
+    font-size: 16px;
 }
 
 .variation-details{
