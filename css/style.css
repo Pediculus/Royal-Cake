@@ -216,6 +216,22 @@ div.contact-us{
     font-size: 16px;
 }
 
+.variant-list{
+    margin-top: -30px;
+}
+
+.variant-list ul{
+    margin: -15px;
+    margin-bottom: 5px;
+}
+
+.variant-list li{
+    padding: 2px;
+    margin: 2px 0px 2px 0px;
+    margin-left: -25px;
+    display: inline-block;
+}
+
 .variation-details{
     padding: 10px;
 }
