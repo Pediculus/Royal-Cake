@@ -206,7 +206,7 @@ div.contact-us{
 
 .right p{
     margin: 10px 0px 5px 0px;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .right pre{
@@ -257,17 +257,20 @@ div.contact-us{
 
 .variation-img img:hover{
     cursor: pointer;
-    transform: scale(1.2);     
+    transform: scale(1.25);     
 }
 
 #about-us p{
     text-align: justify;
-    padding: 4px;
+    padding-top: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 3px;
     margin: 2px;
     line-height: 20px;
 }
 
-#about-us h4{
+#about-us h3{
     margin-top: 20px;
     margin-bottom: 5px;
 }
