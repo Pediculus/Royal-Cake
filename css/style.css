@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff9900;
+    color: #ac6700;
 }
 
 button{
@@ -55,16 +55,9 @@ button.tablinks  {
 button.links{
     background-color:#F2D492;
 }
-button.viewall{
-    width: 15%; 
-    height:15%; 
-    padding:5px; 
-    background-color: #ebebeb; 
-    border: none;
-}
 
 button:hover{
-    color: #ff9900;
+    color: #ac6700;
 }
 
 .container {
